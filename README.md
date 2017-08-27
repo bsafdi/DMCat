@@ -10,7 +10,7 @@ If this catalog contributes to a publication, please cite the original paper arx
 
 ## Extending and Modifying this Catalog
 
-`DMCat` is meant to be a living catalog.  If you feel there is an error in `DMCat`, an entry can be updated with a more precise value, or new groups can be added to the catalog, we encourage you to do so!  Please then add your name to the `contributors.txt` list, along with a brief description of your contribution and a link to any relevant publication, so that your contribution may be properly acknowledged.   
+`DMCat` is meant to be a living catalog.  If you feel there is an error in `DMCat`, an entry can be updated with a more precise value, or new groups can be added to the catalog, we encourage you to do so!  Please do this via a `Pull request`.  Then, add your name to the `contributors.txt` list, along with a brief description of your contribution and a link to any relevant publication, so that your contribution may be properly acknowledged.   
 
 ## Loading the Catalog
 
