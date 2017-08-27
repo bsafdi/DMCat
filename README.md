@@ -1,6 +1,6 @@
 # DMCat
 
-![Full Sky J](https://raw.githubusercontent.com/bsafdi/DMCat/.plots/jfactors.pdf "Full Sky Map of Extragalactic J-factors")
+![Full Sky J](https://raw.githubusercontent.com/bsafdi/DMCat/master/plots/jfactors.pdf "Full Sky Map of Extragalactic J-factors")
 
 This is a repository for the full-sky catalog of DM annihilation and decay factors for nearby galaxies, outside of the local group, presented in arxiv:XXXXXX.  If this catalog contributes to a publication, please cite arxiv:XXXX.  DMCat is a catalog of extragalactic signatures of beyond-the-standard model physics in the dark sector that is built from the galaxy group catalogs arxiv:1503.03134 and arxiv:1705.08068.  
 
