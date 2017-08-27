@@ -21,15 +21,45 @@ from astropy.io import ascii
 DMCat =  ascii.read("DMCat.txt").to_pandas()
 ```
 
-## Entries and Units
+## The Catalog: `DMcat/DMCat.txt`
+
+### Units
+
+All J-factors (for annihilation) have units of `GeV^2 cm^-5 sr`, all D-factors (for decay) have units of `GeV cm^-2 sr`, all masses are in units of `solar mass`, all distances are in `Mpc`, and all angles are in `degrees`.
+
+
+### Entries
 
 `DMCat/DMCat.txt` consists of the following entries:
 	
 1.  `Name`: the known group name, if one exists.
-2.  `mulog10J_inf`: `log_{10}` of the inferred J factor, using the fiducial boost factor in arxiv:XXXX
-3.	`siglog10J_inf`: The standard error on the measurement of `mulog10J_inf`, in log space.
+2.  `mulog10J_inf`: `log_{10}` of the inferred J factor, using the fiducial boost factor in arxiv:XXXX.  This boost factor is calculated assuming the NFW DM profile.
+3.	`siglog10J_inf`: the standard error on the measurement of `mulog10J_inf`, in log space.
 4.  `mulog10Jnb_inf`: the same as 2., except without the boost factor.
 5. `siglog10Jnb_inf`: the same 3., except without the boost factor.
-6. 
+6. `mulog10JB_inf`: the same as 2., except assuming the Burkert DM profile.
+7. `siglog10JB_inf`: the same as 3., except assuming the Burkert DM profile.
+8. `mulog10JBnb_inf`: the same as 4., except assuming the Burkert DM profile.
+9. `siglog10JBnb_inf`: the same as 5., except assuming the Burkert DM profile.
+10. `mulog10D_inf`: `log_{10}` of the inferred decay factor `D`.
+11. `siglog10D_inf`: the standard error on the measurement of `mulog10D_inf`, in log space.
+12. `log10Mvir_inf`: `log_{10}` of the inferred virial mass.
+13. `z`: redshift
+14. `Nest`: 
+15. `Ng`: the number of galaxies in the galaxy group
+16. `l`: Galactic longitude of the central galaxy.
+17. `b`: Galactic latitude of the central galaxy.
+18. `cvir_inf`: the inferred central concentration parameter.
+19. `rvir_inf`: the inferred virial radius.
+20. `rs`: the inferred NFW scale radius.
+21. `ID_2MASXJ`:
+22. `Bib_z`:
+23. `GName`: known name of the central galaxy, if one exists.
+24. `ang_ext`: 
+25. `theta_vir`:
+26. `log10M200_inf`: `log_{10}` of the inferred `M_200` mass.
+27. `ra`: right ascension of central galaxy.
+28. `dec`: declination of central galaxy.
+29. `dA`: distance to central galaxy.
 
 
