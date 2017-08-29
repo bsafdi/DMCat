@@ -69,4 +69,4 @@ All J-factors (for annihilation) have units of `GeV^2 cm^-5 sr`, all D-factors (
 25. `dec`: Declination of the central galaxy in the ICRS frame.
 26. `theta_s`: Angular extension associated with the halo scale radius.
 27. `log10M200`: `log_{10}` of the inferred 200 mass.
-28. `r200`: NFW 200 radius of the halo.
+28. `r200`: Inferred NFW 200 radius of the halo.
