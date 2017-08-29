@@ -32,7 +32,7 @@ import pandas as pd
 DMCat =  pd.read_csv("DMCat.csv")
 ```
 
-## The Catalog: `DMCat/DMCat.txt`
+## The Catalog: `DMCat/DMCat.csv`
 
 ### Units
 
