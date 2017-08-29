@@ -1,6 +1,9 @@
 # DMCat
 
+**A catalog of extragalactic DM halos and their annihilation and decay factors**
+
 [![arXiv](https://img.shields.io/badge/arXiv-1708.xxxxx%20-green.svg)](https://arxiv.org/abs/1708.xxxxx)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![Full Sky J](https://github.com/bsafdi/DMCat/blob/master/plots/jfactors.png "Full Sky Map of Extragalactic J-factors")
 
@@ -29,7 +32,7 @@ import pandas as pd
 DMCat =  pd.read_csv("DMCat.csv")
 ```
 
-## The Catalog: `DMcat/DMCat.txt`
+## The Catalog: `DMCat/DMCat.txt`
 
 ### Units
 
@@ -57,12 +60,12 @@ All J-factors (for annihilation) have units of `GeV^2 cm^-5 sr`, all D-factors (
 16. `sigmalog10cvir`: The standard error on the measurement of `log10(cvir)` in log space.
 17. `z`: Cosmological redshift.
 18. `dA`: Angular diameter distance to the central galaxy.
+18. `rvir`: NFW virial radius of the halo.
+18. `rs`: Scale radius of the halo.
 19. `Ng`: Number of group members in the galaxy group.
 20. `l`: Galactic longitude of the central galaxy.
 21. `b`: Galactic latitude of the central galaxy.
 22. `ra`: Right ascension of central galaxy in the ICRS frame.
 23. `dec`: Declination of central galaxy in the ICRS frame.
 24. `theta_s`: Angular extension associated with halo scale radius.
-25. `N3FGL10`: Number of 3FGL point sources within 10 degrees of central galaxy.
-26. `3FGL0.5`: List of 3FGL sources within 0.5 degrees of central galaxy.
 
