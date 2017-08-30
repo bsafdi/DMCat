@@ -40,7 +40,7 @@ All J-factors (for annihilation) have units of `GeV^2 cm^-5 sr`, all D-factors (
 
 ### Entries
 
-`DMCat/DMCat.txt` consists of the following entries:
+`DMCat/DMCat.csv` consists of the following entries:
 	
 1. `Name`: Name of the brightest central galaxy (BCG) from the T15 or T17 catalogs.
 2. `GName`: Common group name associated to the group, if one exists, cross-referenced from the `CosmicFlows-3` catalog ([1605.01765](https://arxiv.org/abs/1605.01765)).
