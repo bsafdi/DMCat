@@ -2,12 +2,12 @@
 
 **A catalog of extragalactic dark matter halos and their annihilation and decay factors.**
 
-[![arXiv](https://img.shields.io/badge/arXiv-1708.xxxxx%20-green.svg)](https://arxiv.org/abs/1708.xxxxx)
+[![arXiv](https://img.shields.io/badge/arXiv-1708.09385%20-green.svg)](https://arxiv.org/abs/1708.09385)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![Full Sky J](https://github.com/bsafdi/DMCat/blob/master/plots/jfactors.png "Full Sky Map of Extragalactic J-factors")
 
-DMCat is a repository for the full-sky catalog of dark matter (DM) annihilation and decay factors for nearby galaxies presented in [1708.xxxxx](https://arxiv.org/abs/1708.xxxxx). 
+DMCat is a repository for the full-sky catalog of dark matter (DM) annihilation and decay factors for nearby galaxies presented in [1708.09385](https://arxiv.org/abs/1708.09385). 
 This is a catalog of extragalactic signatures of beyond-the-standard model physics in the dark sector 
 that is built from the galaxy group catalogs [1503.03134](https://arxiv.org/abs/1503.03134) and 
 [1705.08068](https://arxiv.org/abs/1705.08068).
@@ -15,7 +15,7 @@ that is built from the galaxy group catalogs [1503.03134](https://arxiv.org/abs/
 ## Citing this work
 
 If this catalog contributes to a publication, please cite the original paper 
-[1708.xxxxx](https://arxiv.org/abs/1708.xxxxx), along with the galaxy group catalogs that DMCat is based on: [1503.03134](https://arxiv.org/abs/1503.03134) and 
+[1708.09385](https://arxiv.org/abs/1708.09385), along with the galaxy group catalogs that DMCat is based on: [1503.03134](https://arxiv.org/abs/1503.03134) and 
 [1705.08068](https://arxiv.org/abs/1705.08068).  
 Please also check the `CONTRIBUTORS.txt` file to see if there are any new contributions that are relevant for citation.
 
