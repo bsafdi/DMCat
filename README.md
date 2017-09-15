@@ -11,17 +11,20 @@ DMCat is a repository for the full-sky catalog of dark matter (DM) annihilation 
 This is a catalog of extragalactic signatures of beyond-the-standard model physics in the dark sector 
 that is built from the galaxy group catalogs [1503.03134](https://arxiv.org/abs/1503.03134) and 
 [1705.08068](https://arxiv.org/abs/1705.08068).
+Much of the formalism used to create this catalog derives from the work in [1709.00416](https://arxiv.org/abs/1709.00416).
 
 ## Citing this work
 
 If this catalog contributes to a publication, please cite the original paper 
-[1708.09385](https://arxiv.org/abs/1708.09385), along with the galaxy group catalogs that DMCat is based on: [1503.03134](https://arxiv.org/abs/1503.03134) and 
+[1708.09385](https://arxiv.org/abs/1708.09385) and companion work [1709.00416](https://arxiv.org/abs/1709.00416), along with the galaxy group catalogs that DMCat is based on: [1503.03134](https://arxiv.org/abs/1503.03134) and 
 [1705.08068](https://arxiv.org/abs/1705.08068).  
 Please also check the `CONTRIBUTORS.txt` file to see if there are any new contributions that are relevant for citation.
 
 ## Extending and Modifying this Catalog
 
 `DMCat` is meant to be a living catalog.  If you feel there is an error in `DMCat`, an entry can be updated with a more precise value, or new groups can be added to the catalog, we encourage you to do so!  Please do this via a pull request.  Then, add your name to the `CONTRIBUTORS.txt` list, along with a brief description of your contribution and a link to any relevant publication, so that your contribution may be properly acknowledged.   
+
+A permanent copy of the original version of this catalog, as it was first used in [1708.09385](https://arxiv.org/abs/1708.09385), is maintained [here](https://dspace.mit.edu/handle/1721.1/111283).
 
 ## Loading the Catalog
 
