@@ -2,26 +2,29 @@
 
 **A catalog of extragalactic dark matter halos and their annihilation and decay factors.**
 
-[![arXiv](https://img.shields.io/badge/arXiv-1708.xxxxx%20-green.svg)](https://arxiv.org/abs/1708.xxxxx)
+[![arXiv](https://img.shields.io/badge/arXiv-1708.09385%20-green.svg)](https://arxiv.org/abs/1708.09385)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![Full Sky J](https://github.com/bsafdi/DMCat/blob/master/plots/jfactors.png "Full Sky Map of Extragalactic J-factors")
 
-DMCat is a repository for the full-sky catalog of dark matter (DM) annihilation and decay factors for nearby galaxies presented in [1708.xxxxx](https://arxiv.org/abs/1708.xxxxx). 
+DMCat is a repository for the full-sky catalog of dark matter (DM) annihilation and decay factors for nearby galaxies presented in [1708.09385](https://arxiv.org/abs/1708.09385). 
 This is a catalog of extragalactic signatures of beyond-the-standard model physics in the dark sector 
 that is built from the galaxy group catalogs [1503.03134](https://arxiv.org/abs/1503.03134) and 
 [1705.08068](https://arxiv.org/abs/1705.08068).
+Much of the formalism used to create this catalog derives from the work in [1709.00416](https://arxiv.org/abs/1709.00416).
 
 ## Citing this work
 
 If this catalog contributes to a publication, please cite the original paper 
-[1708.xxxxx](https://arxiv.org/abs/1708.xxxxx), along with the galaxy group catalogs that DMCat is based on: [1503.03134](https://arxiv.org/abs/1503.03134) and 
+[1708.09385](https://arxiv.org/abs/1708.09385) and companion work [1709.00416](https://arxiv.org/abs/1709.00416), along with the galaxy group catalogs that DMCat is based on: [1503.03134](https://arxiv.org/abs/1503.03134) and 
 [1705.08068](https://arxiv.org/abs/1705.08068).  
 Please also check the `CONTRIBUTORS.txt` file to see if there are any new contributions that are relevant for citation.
 
 ## Extending and Modifying this Catalog
 
 `DMCat` is meant to be a living catalog.  If you feel there is an error in `DMCat`, an entry can be updated with a more precise value, or new groups can be added to the catalog, we encourage you to do so!  Please do this via a pull request.  Then, add your name to the `CONTRIBUTORS.txt` list, along with a brief description of your contribution and a link to any relevant publication, so that your contribution may be properly acknowledged.   
+
+A permanent copy of the original version of this catalog, as it was first used in [1708.09385](https://arxiv.org/abs/1708.09385), is maintained [here](https://dspace.mit.edu/handle/1721.1/111283).
 
 ## Loading the Catalog
 
@@ -40,7 +43,7 @@ All J-factors (for annihilation) have units of `GeV^2 cm^-5 sr`, all D-factors (
 
 ### Entries
 
-`DMCat/DMCat.txt` consists of the following entries:
+`DMCat/DMCat.csv` consists of the following entries:
 	
 1. `Name`: Name of the brightest central galaxy (BCG) from the T15 or T17 catalogs.
 2. `GName`: Common group name associated to the group, if one exists, cross-referenced from the `CosmicFlows-3` catalog ([1605.01765](https://arxiv.org/abs/1605.01765)).
