@@ -60,6 +60,7 @@ All J-factors (for annihilation) have units of `GeV^2 cm^-5 sr`, all D-factors (
 16. `sigmalog10cvir`: The standard error on the measurement of `log10(cvir)` in log space.
 17. `z`: Cosmological redshift.
 18. `dA`: Angular diameter distance to the central galaxy.
+18. `dc`: Comoving distance to the central galaxy.
 19. `rvir`: Inferred NFW virial radius of the halo.
 20. `rs`: Inferred scale radius of the halo.
 21. `Ng`: Number of group members in the galaxy group.
