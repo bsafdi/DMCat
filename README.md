@@ -39,7 +39,7 @@ DMCat =  pd.read_csv("DMCat.csv")
 
 ### Units
 
-All J-factors (for annihilation) have units of `GeV^2 cm^-5 sr`, all D-factors (for decay) have units of `GeV cm^-2 sr`, all masses are in units of `solar mass`, all distances are in `Mpc`, and all angles are in `degrees`.
+All J-factors (for annihilation) have units of `GeV^2 cm^-5 sr`, all D-factors (for decay) have units of `GeV cm^-2 sr`, all masses are in units of `solar mass`, `dA` and `dc` distances are in `Mpc`, `rvir`, `rs`, and `r200` distances are in `kpc`, and all angles are in `degrees`.
 
 ### Entries
 
